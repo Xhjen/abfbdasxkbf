@@ -1,4 +1,4 @@
-local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/ryleee0939/celestialmain/refs/heads/main/framework.lua", true))();
+local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/framework.lua", true))();
 --
 do -- checks
     do -- folders
@@ -60,31 +60,31 @@ local get_mouse = lplr:GetMouse();
 Instance_manager = framework.modules.instance_manager
 signals = framework.modules.signals
 -- fonts
-local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/ryleee0939/celestialmain/refs/heads/main/fonts.lua"))();
+local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/fonts.lua"))();
 local fonts = {
     smallest_pixel = create_font:register("Insolence/MENU/FONTS", {
         name = "smallest pixel",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/smallest_pixel-7.ttf",
+        link = "https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/smallest_pixel-7.ttf",
     }),
     templeos = create_font:register("Insolence/MENU/FONTS", {
         name = "templeos",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/ryleee0939/celestialmain/refs/heads/main/smallest_pixel-7.ttf",
+        link = "https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/smallest_pixel-7.ttf",
     }),
     proggytiny = create_font:register("Insolence/MENU/FONTS", {
         name = "proggytiny",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/ryleee0939/celestialmain/refs/heads/main/ProggyTiny.ttf",
+        link = "https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/ProggyTiny.ttf",
     }),
     medodica = create_font:register("Insolence/MENU/FONTS", {
         name = "medodica",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/MedodicaRegular.ttf",
+        link = "https://raw.githubusercontent.com/Xhjen/abfbdasxkbf/refs/heads/main/MedodicaRegular.ttf",
     }),
 };
 --
